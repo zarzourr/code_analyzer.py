@@ -3,6 +3,8 @@ import os, ast, json
 
 
 
+
+
 def analyze_code():
     summary = {"files_scanned": 0, "functions": 0, "classes": 0, "lines_changed": 0}
     for root, _, files in os.walk("."):
